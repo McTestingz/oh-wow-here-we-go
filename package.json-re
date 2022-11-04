@@ -17,10 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public",
-		"chromatic": "npx chromatic --exit-zero-on-changes --exit-once-uploaded",
-		"chromatic-base-dev": "CHROMATIC_INDEX_URL=https://index.dev-chromatic.com yarn chromatic",
-		"chromatic-dev": "yarn chromatic-base-dev --project-token=38ad98fd2b8d"
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": [
